@@ -2,23 +2,38 @@
 <!-- Yusef Hassan -->
 <!-- MIU 0512 -->
 <!-- Project 2 -->
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta name="description" content=""/>
-		<meta name="keywords" content=""/>
-		<meta name="robots" content="noindex, nofollow" />
-		<meta name="viewport" content="user-scalable=no, width=device-width"/>
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+			
 		<title> Game&#47;DVD Lender </title>		
-		<link href="styles.css" rel="stylesheet" type="text/css"/>
-	</head>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+		
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<link rel="stylesheet" href="styles.css" />
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="modernizr.custom.min.js"></script>
+
+</head>
 	<body>
-		<header>
+			<div data-role="page" id="home">
+	
+		<div data-role="header" data-position="fixed" data-theme="a">
 			<h1> Game&#47;DVD Lender </h1>
-			<h2> Help Remember who has your valuables.</h2>
-		</header>
-		<input class="search" type="text" value="Find…" onfocus="if (this.value == 'Find…') {this.value = '';}" onblur="if (this.value == '') 			{this.value = 'Find…';}">
-		<input class="button" type="button" value="Search">
+		</div>
+				<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li data-role="list-divider">Help Remember Who Has Your Valuables.</li>
 		<nav>
 			<a class="add" href="additem.html" title="addInfo">Add Info</a>
 		</nav>
@@ -27,19 +42,47 @@
 				<ul>
 					<li><a href="#">Movies</a>
 						<ul>
-							<li><a href="#">VHS</a></li>
-							<li><a href="#">Blu-Ray</a></li>
-							<li><a href="#">DVD</a></li>
+							<li>						
+								<img src="images/VHS.png" />
+								<h3>VHS</h3>
+								<p>Classic</p>
+							</li>
+							<li>
+								<img src="images/Blu-Ray.png" />
+								<h3>Blu-Ray</h3>
+								<p>HD</p>
+							</li>
+							<li>
+								<img src="images/DVD.png" />
+								<h3>DVD</h3>
+								<p>Dying Market</p>
+							</li>
 						</ul>
 					<li><a href="#">Games</a>
 						<ul>
-							<li><a href="#">Xbox 360</a></li>
-							<li><a href="#">PS3</a></li>
-							<li><a href="#">Wii</a></li>
+							<li>						
+								<img src="images/Xbox 360.png" />
+								<h3>Xbox 360</h3>
+								<p>Microsoft</p>
+							</li>
+							<li>
+								<img src="images/PS3.png" />
+								<h3>PS3</h3>
+								<p>Sony</p>
+							</li>
+							<li>
+								<img src="images/Xbox 360.png" />
+								<h3>Wii</h3>
+								<p>Nintendo</p>
+							</li>
 						</ul>
 					</li>
 				</ul>
 			</li>
 		</nav>
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<script src="json.js" type="text/javascript"></script>
 	</body>
 </html>
