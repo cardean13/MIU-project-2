@@ -11,8 +11,8 @@ Project 4
 
 body
 {
-	background-image:url('/Users/Bioassassin/Desktop/MIU-Project-1/jpgfolder/gradient.jpg');
-	background-repeat:repeat-x;
+	background-image: url(jpg/gradient.png);
+	background-repeat: repeat-x;
 	background-attachment: fixed;
 
 }
@@ -53,7 +53,7 @@ h2{
 	font-size: 40px;
 	line-height: 146px ;
 	display: block;
-	background-image:url('/Users/Bioassassin/Desktop/MIU-Project-1/images/stock.png');
+	background-image:url(images/stock.png);
 	background-repeat: no-repeat;
 	margin: auto;
 	height: 170px;
@@ -98,7 +98,7 @@ label{
 }
 
 #errors{
-	list-style-image: url('/Users/Bioassassin/Desktop/MIU-Project-1/jpgfolder/arrow.jpg');
+	list-style-image: url(jpg/arrow.png);
 	color: red;
 }
 #nav{
