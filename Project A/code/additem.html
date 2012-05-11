@@ -14,14 +14,16 @@
 		<link href="styles.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
-		<header>
+		<div data-role="page" id="Info" data-add-back-btn="true">
 			<h1>Info on Borrower</h1>
-		</header>
 		<nav>
 			<a class="all" href="#" id="remove">Remove All Accounts</a>
 			<a class="all" href="#" id="allAccounts">View All Accounts</a>
 			<a class="all" href="additem.html" id="addAccount" style="display:none;">Add New Account</a>
 		</nav>
+		<div data-role="page" id="#allAccounts" data-add-back-btn="true">
+				<h1>All Accounts</h1>
+		</div>
 		<form action="#" method="post" id="accountInfo">
 			<fieldset>
 			<legend>Account Information</legend>
@@ -59,5 +61,7 @@
 		</form>
 		<script src="json.js" type="text/javascript"></script>
 		<script src="main.js" type="text/javascript"></script>
+				</div>
+
 	</body>
 </html>

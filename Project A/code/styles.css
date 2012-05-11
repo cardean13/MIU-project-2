@@ -17,20 +17,6 @@ body
 
 }
 
-h1{
-		color: white;
-}
-
-h2{
-	border: 1px solid black;
-	border-radius: 15px;
-	background-color: #99cc99;
-	font: 22px Arial;
-	text-align: center ;
-	margin: 0px 10px;
-	margin-top: -20px;
-	color: black;
-}
 
 .search{
 	margin-left: 10px;
@@ -64,28 +50,6 @@ h2{
 
 a:hover{
 	color: olive;
-}
-
-legend{
-	background-color: #cfcfcf;
-	padding-top: 2px ;
-	margin-top: 20px;
-	margin-left: -13px;
-	border: 1px solid black;
-	
-}
-
-
-fieldset{
-	font: 18px times ;
-	margin: 30px 10px;
-	background: #99cc99;
-
-}
-
-label{
-	color: #000000;
-	padding-top: 10px
 }
 
 #errors{
